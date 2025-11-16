@@ -28,12 +28,6 @@ header {
   padding: 10px;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  cursor: pointer; /* Le curseur montre que c'est cliquable */
-  transition: transform 0.2s;
-}
-
-.card:hover {
-  transform: scale(1.03);
 }
 
 .card img {
@@ -66,11 +60,6 @@ header {
 
 .card button:hover {
   background: #c9302c;
-}
-
-/* Lien MakerWorld affiché si tu veux (optionnel) */
-.card a {
-  display: none; /* On ne montre plus le bouton, l'ouverture se fait au clic sur la carte */
 }
 
 /* Bouton flottant + amélioré */
